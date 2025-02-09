@@ -33,7 +33,7 @@ py Filename.py
 Balanced Risk Set Matching (BRSM), a technique used in observational studies to create fair comparisons between treated and control groups when randomized trials are not possible.
 The goal is to match treated patients (who received a treatment at a certain time) with control patients (who had a similar history but had not yet received the treatment at that time). This allows us to estimate treatment effects while reducing bias.
 
-🔑 Key Concepts in Your Code
+🔑 Key Concepts
 
 1️⃣ Matching Treated and Control Patients
 We separate patients into:
@@ -42,7 +42,7 @@ Control group (not yet treated)
 Instead of random assignment (like in a clinical trial), we find the best possible match for each treated patient based on historical symptoms.
 
 2️⃣ Mahalanobis Distance for Finding Best Matches
-You use Mahalanobis distance, which measures how similar two patients are based on their symptoms.
+Use Mahalanobis distance, which measures how similar two patients are based on their symptoms.
 It accounts for correlations between variables, making it better than simple Euclidean distance.
 The goal is to minimize this distance when forming matches.
 
