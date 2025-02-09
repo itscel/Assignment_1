@@ -49,6 +49,7 @@ This ensures each treated patient is matched to the closest control patient whil
 
 🚀 To do
 Python script:
+
 ✅ Loads patient data with symptoms and treatment history.
 ✅ Computes Mahalanobis distances to measure similarity between patients.
 ✅ Finds optimal matches between treated and control groups using a matching algorithm.
