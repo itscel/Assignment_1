@@ -1,5 +1,5 @@
 ﻿# Assignment_1
-#Announcement
+## Announcement
 This assignment is a test of your algorithmic thinking. You can use any A.I. tools ot assist you in this coding assignment.
 
 Instructions:
@@ -11,7 +11,7 @@ Develop a Python implementation of the procedures in the journal.
 Deadline is before premidterm week.
 
 
-#Start
+## Start
 Python Installation
 Link: https://www.python.org/downloads/
 Verify in terminal
