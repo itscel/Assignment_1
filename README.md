@@ -16,21 +16,28 @@ Deadline is before premidterm week.
 
 
 ## Start
-Python Installation
+
+### Python Installation
+
 Link: https://www.python.org/downloads/
-Verify in terminal
+
+### Verify in terminal
+
 py --version
 
-Install libraries
+### Install libraries
+
 py -m pip install numpy pandas scipy networkx
 
 py -m pip install matplotlib seaborn
 
-Run code
+### Run code
 py Filename.py
 
 🔍 Balanced Risk Set Matching
+
 Balanced Risk Set Matching (BRSM), a technique used in observational studies to create fair comparisons between treated and control groups when randomized trials are not possible.
+
 The goal is to match treated patients (who received a treatment at a certain time) with control patients (who had a similar history but had not yet received the treatment at that time). This allows us to estimate treatment effects while reducing bias.
 
 🔑 Key Concepts
@@ -55,9 +62,13 @@ This ensures each treated patient is matched to the closest control patient whil
 Python script:
 
 ✅ Loads patient data with symptoms and treatment history.
+
 ✅ Computes Mahalanobis distances to measure similarity between patients.
+
 ✅ Finds optimal matches between treated and control groups using a matching algorithm.
+
 ✅ Ensures fair comparisons by only using past symptom data (not future).
+
 ✅ Outputs matched pairs that are as similar as possible in symptoms before treatment.
 
 
